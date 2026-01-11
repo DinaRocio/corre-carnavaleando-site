@@ -1,11 +1,58 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import CateringSection from "../components/molecules/CateringSection.astro";
+import DoordashButton from "../components/molecules/DoordashButton.astro";
+import GallerySection from "../components/molecules/GallerySection.astro";
+import Marquee from "../components/molecules/Marquee.astro";
+import PromoBar from "../components/molecules/PromoBar.astro";
+import QuoteBanner from "../components/molecules/QuoteBanner.astro";
+import Footer from "../components/organisms/Footer.astro";
+import Header from "../components/organisms/Header.astro";
+import HeroSection from "../components/organisms/HeroSection.astro";
+import WeeklySpecialsSection from "../components/organisms/WeeklySpecialsSection.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <div class="fixed z-10 top-0 left-0 right-0">
+    <PromoBar />
+    <Header />
+  </div>
+
+  <main class="flex flex-col">
+    <!-- Hero -->
+    <section class="w-full">
+      <HeroSection />
+    </section>
+
+    <!-- Quote Banner -->
+    <section class="w-full">
+      <!-- <QuoteBanner /> -->
+    </section>
+
+    <!-- Marquee divider -->
+    <section class="w-full">
+      <Marquee />
+    </section>
+
+    <!-- Weekly Specials -->
+    <section class="w-full">
+      <!-- <WeeklySpecialsSection /> -->
+    </section>
+
+    <!-- Lifestyle / Catering Promo -->
+    <section class="w-full">
+      <!-- <CateringSection /> -->
+    </section>
+
+    <!-- Gallery (croissants etc.) -->
+    <section class="w-full">
+      <!-- <GallerySection /> -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <section>
+    <Footer />
+  </section>
+  <DoordashButton />
 </Layout>

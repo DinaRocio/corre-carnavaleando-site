@@ -1,0 +1,28 @@
+---
+import site from "../../content/site.json";
+import Link from "../atoms/Link.astro";
+
+const {} = Astro.props;
+---
+
+<aside
+  id="promo-bar"
+  class="w-full z-40 bg-(--color-promo-background) top-0 transition-all duration-500 ease-in-out overflow-hidden"
+  aria-label="Site announcement"
+  role="note"
+  x-data="{ hidden: false }"
+  x-init="
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      hidden = currentScroll > 50;
+    });
+  "
+  :style="hidden ? 'max-height: 0; opacity: 0; padding: 0;' : 'max-height: 100px; opacity: 1;'"
+>
+  <div class="flex w-full items-center justify-center px-4 py-2.5 gap-1.5">
+    <p class=`body-14 text-(--color-text-inverse)`>{site.promoBar.message}</p>
+    <Link size="sm" href={site.promoBar.linkHref} textTone="inverse" underline
+      >{site.promoBar.linkLabel}</Link
+    >
+  </div>
+</aside>

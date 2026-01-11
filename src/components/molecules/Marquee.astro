@@ -1,0 +1,45 @@
+---
+import site from "../../content/site.json";
+
+const marqueeItems = site.marquee.items;
+const loopItems = Array.from({ length: 4 }, () => marqueeItems).flat();
+---
+
+<section
+  id="marquee"
+  class="w-full overflow-hidden p-4 bg-(--color-marquee-background)"
+>
+  <div class="marquee-track">
+    {
+      loopItems.map((item, index) => (
+        <p class="body-14 text-(--color-text-inverse) whitespace-nowrap mr-6">
+          {item}
+        </p>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-25%);
+    }
+  }
+
+  /* to prevent animation on reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track {
+      animation: none;
+    }
+  }
+</style>

@@ -1,0 +1,63 @@
+---
+import site from "../../content/site.json";
+import { parseHighlightedText } from "../../helpers/parseHighlightedText";
+import Button from "../atoms/Button.astro";
+import Image from "../atoms/Image.astro";
+import WeekdaySpecial from "../molecules/WeekdaySpecial.astro";
+---
+
+<section
+  id="weekly-specials-section"
+  class="w-full h-auto md:p-20 p-8 mx-auto relative overflow-hidden container-max"
+>
+  <!-- grid -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <!-- left container -->
+    <div class="w-full h-full">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 h-full">
+        <!-- headings -->
+        <div class="gap-4 flex flex-col items-start justify-center text-start">
+          <h3
+            class="heading-3 md:w-7/9 w-full"
+            set:html={parseHighlightedText(
+              site.weeklySpecials.title.toUpperCase()
+            )}
+          />
+          <p class="body-16 text-start">{site.weeklySpecials.subtitle}</p>
+          <span>
+            <Button
+              variant="primary"
+              size="sm"
+              href={site.weeklySpecials.primaryCta.href}
+              >{site.weeklySpecials.primaryCta.label}</Button
+            >
+          </span>
+        </div>
+        <!-- image -->
+        <div class="w-full h-full">
+          <Image
+            src={site.weeklySpecials.image.src}
+            alt={site.weeklySpecials.image.alt}
+            stickerName="with-love"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- right container -->
+    <div class="w-full h-full">
+      <div class="border-b var(--color-divider)">
+        {
+          site.weeklySpecials.items.map((item) => (
+            <WeekdaySpecial
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              description={item.description}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

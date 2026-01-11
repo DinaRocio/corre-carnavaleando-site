@@ -1,0 +1,25 @@
+---
+import site from "../../content/site.json";
+import FooterLocationsNav from "../molecules/FooterLocationsNav.astro";
+import FooterMainLinks from "../molecules/FooterMainLinks.astro";
+import FooterLegal from "../molecules/FooterLegal.astro";
+
+const { footer } = site;
+---
+
+<footer class="w-full bg-(--color-background)">
+  <!-- Top -->
+  <div
+    class="flex flex-col md:gap-14 gap-10 px-4 md:px-8 py-12 md:py-16 container-max mx-auto"
+  >
+    <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr_1fr] md:gap-8">
+      <!-- Column 1 (Locations Nav) -->
+      <FooterLocationsNav />
+
+      <!-- Column 2 (Footer Nav) -->
+      <FooterMainLinks />
+    </div>
+    <!-- Bottom Strip (Legal + Copyright) -->
+    <FooterLegal />
+  </div>
+</footer>

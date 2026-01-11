@@ -1,0 +1,297 @@
+{
+  "marquee": {
+    "items": [
+      "Sustainable & Environmentally Friendly Practices",
+      "High quality goods",
+      "Voted Hartford County’s Best Coffee",
+      "From Vermont, With Love"
+    ]
+  },
+  "promoBar": {
+    "enabled": true,
+    "message": "Selected catering items available to order now!",
+    "linkLabel": "Order Now",
+    "linkHref": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+  },
+  "site": {
+    "name": "Coffee Coffee",
+    "tagline": "Neighborhood coffee & baked goods",
+    "locale": "en-US",
+    "ogTitle": "Coffee Coffee",
+    "ogDescription": "Neighborhood coffee & baked goods",
+    "ogImage": "/images/hero-coffee.jpg"
+  },
+  "quoteBanner": {
+    "eyebrow": "Who we are",
+    "quote": "\"We take pride in our focus on locally-sourced products, a commitment to **high quality goods** and services, and sustainable & environmentally friendly practices.\"",
+    "meta": "4.9 rating from 1,200+ reviews"
+  },
+  "header": {
+    "logo": {
+      "text": "Coffee Coffee",
+      "href": "/"
+    },
+    "items": [
+      {
+        "label": "Inscríbete",
+        "href": "/inscribe"
+      },
+      {
+        "label": "Conócenos",
+        "href": "/about"
+      },
+      {
+        "label": "Resultados",
+        "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9",
+        "isCta": true
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Little moments, lots of coffee.",
+    "items": [
+      {
+        "id": "croissants",
+        "src": "/images/image-carrusel-1.webp",
+        "alt": "Barista pouring latte art"
+      },
+      {
+        "id": "cream",
+        "src": "/images/image-carrusel-2.webp",
+        "alt": "Coffee bar with pastries on display"
+      },
+      {
+        "id": "toast",
+        "src": "/images/image-carrusel-3.webp",
+        "alt": "Coffee bar with pastries on display"
+      },
+      {
+        "id": "cupcakes",
+        "src": "/images/image-carrusel-4.webp",
+        "alt": "Coffee bar with pastries on display"
+      },
+      {
+        "id": "cream",
+        "src": "/images/image-carrusel-2.webp",
+        "alt": "Coffee bar with pastries on display"
+      },
+      {
+        "id": "toast",
+        "src": "/images/image-carrusel-3.webp",
+        "alt": "Coffee bar with pastries on display"
+      },
+      {
+        "id": "cupcakes",
+        "src": "/images/image-carrusel-4.webp",
+        "alt": "Coffee bar with pastries on display"
+      }
+    ]
+  },
+  "doorDashButton": {
+    "label": "Order Online & Pickup",
+    "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+  },
+  "hero": {
+    "eyebrow": "Since 2008",
+    "title": "Vive la experiencia Corre Carnavaleando 2026",
+    "body": "Próxima edición: 23 de Agosto 2026",
+    "primaryCta": {
+      "label": "Inscríbete",
+      "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+    },
+    "image": {
+      "src": "/images/hero-coffee.jpg",
+      "alt": "Two cappuccinos and a croissant on a wooden table"
+    }
+  },
+  "footer": {
+    "locationsColumn": {
+      "title": "Our Locations",
+      "locations": [
+        {
+          "name": "Festival Shopping Center",
+          "address": [
+            "5 Bel Air South Parkway Suite117",
+            "Bel Air, Maryland 21015"
+          ],
+          "phone": "(410) 515-2060",
+          "openingDays": "Open 7 Days Per Week!",
+          "openingHours": "7am - 5pm"
+        },
+        {
+          "name": "Bel Air Farmer’s Market",
+          "address": ["2 S. Bond Street", "Bel Air, MD 21014"],
+          "availability": "April - December",
+          "openingDays": "Saturdays",
+          "openingHours": "7am - 11am"
+        }
+      ]
+    },
+    "footerMainLinks": [
+      {
+        "title": "Shop",
+        "links": [
+          {
+            "label": "Order Online",
+            "href": "https://coffeecoffeebelair.square.site/"
+          },
+          {
+            "label": "Coffee Beans",
+            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#5"
+          },
+          {
+            "label": "Gift Cards",
+            "href": "https://squareup.com/gift/28D6NJ898NS72/order"
+          },
+          {
+            "label": "Merchandise",
+            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#6"
+          },
+          {
+            "label": "Gift Baskets",
+            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#8"
+          }
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "links": [
+          {
+            "label": "Join Our Team",
+            "href": "https://www.coffeecoffee-online.com/join-our-team"
+          },
+          {
+            "label": "Catering",
+            "href": "https://www.coffeecoffee-online.com/catering"
+          },
+          {
+            "label": "Email Us",
+            "href": "mailto:coffeecoffeebelair@gmail.com"
+          },
+          {
+            "label": "Call Us",
+            "href": "tel:(410)515-2060"
+          }
+        ]
+      },
+      {
+        "title": "Who We Are",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "https://www.coffeecoffee-online.com/contact-1"
+          },
+          {
+            "label": "The Vermont Connection",
+            "href": "/vermont"
+          },
+          {
+            "label": "Farmer’s Market",
+            "href": "/market"
+          },
+          {
+            "label": "Join Our Team",
+            "href": "https://www.coffeecoffee-online.com/join-our-team"
+          }
+        ]
+      },
+      {
+        "title": "Follow Us",
+        "links": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/coffeecoffeebelair"
+          },
+          {
+            "label": "Facebook",
+            "href": "https://www.facebook.com/coffeecoffeebelair"
+          },
+          {
+            "label": "Spotify Playlist",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms and Conditions",
+        "href": "/terms"
+      },
+      {
+        "label": "Do not sell my Information",
+        "href": "/do-not-sell"
+      },
+      {
+        "label": "Return Policy",
+        "href": "/returns"
+      }
+    ],
+    "copyright": "Coffee Coffee. 2025"
+  },
+  "weeklySpecials": {
+    "title": "Weekly <br> Specials",
+    "subtitle": "In a hurry? Selected items available for quick pickup.",
+    "primaryCta": {
+      "label": "Order Online",
+      "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+    },
+    "image": {
+      "src": "/images/weekly-specials.webp",
+      "alt": "Weekly  Specials"
+    },
+    "items": [
+      {
+        "id": "1",
+        "day": "Monday",
+        "name": "Bean Day*",
+        "description": "*Get a free medium cup of drip coffee when you purchase #1 or more of beans.",
+        "tag": "see-details"
+      },
+      {
+        "id": "2",
+        "day": "Tuesday",
+        "name": "Frittatas Day* + Teachers Day*",
+        "description": "*Our special includes 15% off Frittatas when using code FRITTATA for online orders, alongside Teacher Tuesday, which offers 20% off one drink for school employees with ID.",
+        "tag": "see-details"
+      },
+      {
+        "id": "3",
+        "day": "Wednesday",
+        "name": "Breakfast Wrap Special & Panini Special",
+        "tag": "see-details"
+      },
+      {
+        "id": "4",
+        "day": "Thursday",
+        "name": "Breakfast Wrap Special"
+      },
+      {
+        "id": "5",
+        "day": "Friday",
+        "name": "Weekly Special Frittata Option"
+      }
+    ]
+  },
+  "catering": {
+    "eyebrow": "We offer catering services",
+    "title": "Coffee, <br /> Bakery, <br /> Sandwiches & <br/> more ",
+    "body": "From office breakfasts to weekend brunches, we’ve got the coffee, pastries, and treats covered.",
+    "primaryCta": {
+      "label": "Order Online",
+      "href": "https://www.coffeecoffee-online.com/catering"
+    },
+    "image": {
+      "src": "/images/image-2.webp",
+      "alt": "Coffee urns and pastry platters set up for an event"
+    },
+    "primaryImage": {
+      "src": "/images/image-grid-1.webp",
+      "alt": "Coffee urns and pastry platters set up for an event"
+    }
+  }
+}

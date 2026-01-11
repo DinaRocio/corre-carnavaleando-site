@@ -1,0 +1,20 @@
+---
+import Button from "../atoms/Button.astro";
+import { doorDashButton } from "../../content/site.json";
+
+interface Props {}
+---
+
+<div class="block md:hidden w-full sticky bottom-4 right-10 px-6">
+  <Button
+    fullWidth
+    variant="secondary"
+    textTone="inverse"
+    radius="full"
+    size="md"
+    href={doorDashButton.href}
+    className="group-hover:bg-(--color-button-secondary) "
+  >
+    {doorDashButton.label}
+  </Button>
+</div>

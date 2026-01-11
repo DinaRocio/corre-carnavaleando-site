@@ -1,0 +1,85 @@
+---
+import site from "../../content/site.json";
+import Image from "../atoms/Image.astro";
+
+const totalItems = site.gallery.items.length;
+const hasMoreThanFour = totalItems > 4;
+---
+
+<section id="gallery-section">
+  <div class="relative">
+    <!-- Mobile: Always Carousel -->
+    <div
+      class="md:hidden relative overflow-hidden"
+      x-data={`{ currentIndex: 0, totalItems: ${totalItems} }`}
+    >
+      <div
+        class="carousel-track flex transition-transform duration-300 ease-in-out"
+        :style="`transform: translateX(-${currentIndex * 100}%)`"
+      >
+        {
+          site.gallery.items.map((item) => (
+            <div class="min-w-full">
+              <Image src={item.src} alt={item.alt} />
+            </div>
+          ))
+        }
+      </div>
+      <!-- Navigation Button -->
+      <div class="absolute top-1/2 right-4 -translate-y-1/2">
+        <button
+          @click="currentIndex = (currentIndex + 1) % totalItems"
+          class="flex items-center cursor-pointer bg-[var(--color-button-primary)] rounded-full px-4 py-2"
+          aria-label="Next image"
+        >
+          <img
+            src="/icon/arrow-right.svg"
+            alt="arrow-right"
+            class="w-4 h-8"
+          />
+        </button>
+      </div>
+    </div>
+
+    <!-- Desktop: Carousel if > 4, Grid if <= 4 -->
+    {
+      hasMoreThanFour ? (
+        <div
+          class="hidden md:block relative overflow-hidden"
+          x-data={`{ currentIndex: 0, totalItems: ${totalItems}, itemsPerView: 4 }`}
+        >
+          <div
+            class="flex transition-transform duration-300 ease-in-out"
+            :style="`transform: translateX(-${currentIndex * 25}%)`"
+          >
+            {site.gallery.items.map((item) => (
+              <div class="min-w-[25%]">
+                <Image src={item.src} alt={item.alt} />
+              </div>
+            ))}
+          </div>
+          <!-- Navigation Button -->
+          <div class="absolute top-1/2 right-4 -translate-y-1/2">
+            <button
+              @click="currentIndex = (currentIndex + 1) % (totalItems - itemsPerView + 1)"
+              class="flex items-center cursor-pointer bg-[var(--color-button-primary)] rounded-full px-4 py-2"
+              aria-label="Next images"
+            >
+              <img
+                src="/icon/arrow-right.svg"
+                alt="arrow-right"
+                class="w-4 h-8"
+              />
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div class="hidden md:grid grid-cols-4">
+          {site.gallery.items.map((item) => (
+            <Image src={item.src} alt={item.alt} />
+          ))}
+        </div>
+      )
+    }
+  </div>
+</section>

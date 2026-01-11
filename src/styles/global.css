@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./typography.css";
+@import "./utils.css";
+
+@layer base {
+  p {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+  }
+}

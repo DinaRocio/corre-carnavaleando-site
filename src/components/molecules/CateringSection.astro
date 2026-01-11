@@ -1,0 +1,54 @@
+---
+import site from "../../content/site.json";
+import { parseHighlightedText } from "../../helpers/parseHighlightedText";
+import Button from "../atoms/Button.astro";
+import Image from "../atoms/Image.astro";
+---
+
+<section id="catering-section">
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <!-- image -->
+    <div class="h-full order-2 md:order-1">
+      <Image
+        src={site.catering.primaryImage.src}
+        alt={site.catering.primaryImage.alt}
+        stickerName="roasted-ready"
+        stickerPosition="center"
+      />
+    </div>
+    <!-- catering info -->
+    <div
+      class="h-full bg-(--color-promo-background) md:p-10 p-6 flex flex-col justify-between order-1 md:order-2 gap-12 md:gap-2"
+    >
+      <!-- top container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <p class="body-14 text-(--color-text-inverse)">
+          {site.catering.eyebrow}
+        </p>
+        <div class="flex justify-end w-full">
+          <div class="w-50">
+            <Image
+              src={site.catering.image.src}
+              alt={site.catering.image.alt}
+              stickerName="good-coffee"
+              stickerPosition="bottom"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- bottom container -->
+      <div class="flex flex-col justify-between gap-4">
+        <h2
+          class="heading-2 text-(--color-text-inverse)"
+          set:html={parseHighlightedText(site.catering.title.toUpperCase())}
+        />
+        <Button
+          variant="primary"
+          size="sm"
+          href={site.catering.primaryCta.href}
+          target="_blank">{site.catering.primaryCta.label}</Button
+        >
+      </div>
+    </div>
+  </div>
+</section>

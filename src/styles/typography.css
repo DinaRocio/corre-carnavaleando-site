@@ -1,0 +1,141 @@
+/* Headings */
+
+.heading-1 {
+  font-family: var(--font-heading);
+  font-size: 90px;
+  line-height: 1; /* Tight */
+  font-weight: 400;
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+.heading-2 {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.heading-3 {
+  font-family: var(--font-heading);
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.heading-4 {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.heading-5 {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* BODY TEXT */
+
+.body-18 {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.body-18-semibold {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+}
+.body-16 {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.body-16-light {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.body-16-semibold {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.body-14 {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.body-14-semibold {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+.body-12-semibold {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+}
+.body-16-semibold {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+}
+.body-18-semibold {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+/* CAPTION */
+.caption {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* EYEBROW (all caps header intro) */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* HIGHLIGHTED TEXT */
+.highlight {
+  color: var(--color-brand-alt);
+}
+
+.big-text {
+  font-size: 20px;
+}

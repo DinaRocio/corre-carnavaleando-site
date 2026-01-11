@@ -1,0 +1,84 @@
+---
+const {
+  posterMobile = "",
+  posterDesktop = "",
+  webmMobile = "",
+  webmDesktop = "",
+  mp4Mobile = "",
+  mp4Desktop = "",
+  class: extraClass = "",
+} = Astro.props;
+---
+
+<div class="absolute inset-0 w-full h-full">
+  <!-- Skeleton/Placeholder con gradiente animado -->
+  <picture>
+    <source media="(min-width: 768px)" srcset={posterDesktop} />
+    <img
+      src={posterMobile}
+      alt="Hero background"
+      fetchpriority="high"
+      class="absolute inset-0 w-full h-full object-cover"
+      width="1920"
+      height="850"
+    />
+  </picture>
+
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="none"
+    poster={posterMobile}
+    class={`absolute inset-0 w-full h-full object-cover ${extraClass}`}
+    data-poster-mobile={posterMobile}
+    data-poster-desktop={posterDesktop}
+    data-webm-mobile={webmMobile}
+    data-webm-desktop={webmDesktop}
+    data-mp4-mobile={mp4Mobile}
+    data-mp4-desktop={mp4Desktop}
+    x-data="{ loaded: false }"
+    x-init="
+      const width = window.innerWidth;
+      const conn = navigator.connection;
+      const slow = conn && ['slow-2g','2g'].includes(conn.effectiveType);
+      const isMobile = width < 768;
+
+      const webmMobile = $el.dataset.webmMobile;
+      const webmDesktop = $el.dataset.webmDesktop;
+      const mp4Mobile = $el.dataset.mp4Mobile;
+      const mp4Desktop = $el.dataset.mp4Desktop;
+      const posterMobile = $el.dataset.posterMobile;
+      const posterDesktop = $el.dataset.posterDesktop;
+
+      const webm = isMobile ? webmMobile : webmDesktop;
+      const mp4 = isMobile ? mp4Mobile : mp4Desktop;
+      const poster = isMobile ? posterMobile : posterDesktop;
+
+      $el.poster = poster;
+
+      if (!slow) {
+        setTimeout(() => {
+          const sources = $el.querySelectorAll('source');
+
+          sources[0].dataset.src = webm;
+          sources[1].dataset.src = mp4;
+
+          sources.forEach(src => src.src = src.dataset.src);
+
+          $el.load();
+
+          $el.addEventListener('canplay', () => {
+            loaded = true;
+          });
+        }, 200);
+      }
+    "
+  >
+    <source data-src="" type="video/webm" />
+    <source data-src="" type="video/mp4" />
+
+    Your navigator does not support HTML5
+  </video>
+</div>

@@ -1,0 +1,60 @@
+---
+import Link from "../atoms/Link.astro";
+import site from "../../content/site.json";
+import MenuButton from "../molecules/MenuButton.astro";
+
+const cta = site.header.items.find((e) => e.isCta);
+---
+
+<header
+  id="header"
+  class="group w-full z-40 px-6 md:px-6 lg:px-8 bg-(--color-header-background)"
+>
+  <div class="w-full flex items-center justify-between">
+    <!-- Mobile Menu hidden on desktop -->
+    <MenuButton />
+    <!-- Mobile Menu hidden on desktop -->
+    <div class="hidden md:flex gap-6">
+      {
+        site.header.items.map((item) => (
+          <Link
+            variant="emphasis"
+            textTone="inverse"
+            href={item.href}
+            style="text-(--color-text-inverse) hover:text-(--color-accent) hover:scale-110 transition-all duration-150"
+          >
+            {item.label}
+          </Link>
+        ))
+      }
+    </div>
+    <div class="block md:hidden w-16 h-16">
+      <img
+        src="./images/coffee-coffee.webp"
+        alt="coffee-coffee logo"
+        class="w-full h-full object-contain"
+      />
+    </div>
+
+    <a href="/" class="hidden md:block relative md:w-20 md:h-20">
+      <img
+        src="./images/coffee-coffee-white.png"
+        alt="coffee-coffee logo"
+        class="absolute inset-0 w-full h-full transition-opacity duration-150 object-contain"
+      />
+    </a>
+    {
+      cta && (
+        <>
+          <div class="md:hidden block">
+            <Link
+              icon="shop"
+              href={cta.href}
+              style="text-(--color-text-inverse) hover:text-(--color-text-primary)"
+            />
+          </div>
+        </>
+      )
+    }
+  </div>
+</header>
