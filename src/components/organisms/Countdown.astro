@@ -1,0 +1,47 @@
+---
+import site from "../../content/site.json";
+import FooterLocationsNav from "../molecules/FooterLocationsNav.astro";
+import FooterMainLinks from "../molecules/FooterMainLinks.astro";
+import FooterLegal from "../molecules/FooterLegal.astro";
+import CountdownItem from "../molecules/CountdownItem.astro";
+
+const raceDate = new Date(site.counter.raceDate);
+const now = new Date();
+const diff = raceDate.getTime() - now.getTime();
+const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+---
+
+<section class="w-full bg-(--color-counter-background)">
+  <div
+    id="countdown"
+    class="flex flex-col items-center md:gap-10 gap-8 px-4 md:px-8 py-12 md:py-16 container-max mx-auto"
+  >
+    <h2 class="body-18-semibold text-(--color-text-inverse)">
+      {site.counter.heading.toLocaleUpperCase()}
+    </h2>
+    <div class="flex gap-6">
+      <CountdownItem
+        value={days}
+        label={site.counter.days.toLocaleUpperCase()}
+      />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem
+        value={hours}
+        label={site.counter.hours.toLocaleUpperCase()}
+      />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem
+        value={hours}
+        label={site.counter.minutes.toLocaleUpperCase()}
+      />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem
+        value={hours}
+        label={site.counter.seconds.toLocaleUpperCase()}
+      />
+    </div>
+  </div>
+</section>

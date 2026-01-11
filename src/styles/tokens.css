@@ -37,7 +37,7 @@
   /* Neutrals (UX essentials) */
   --primitive-white: #ffffff;
   --primitive-black: #000000;
-  --primitive-offwhite: #fff7e6; /* reemplaza tu beige (más usable) */
+  --primitive-offwhite: #ffffff; /* reemplaza tu beige (más usable) */
 
   /* Greys (necesarios para UI real) */
   --primitive-gray-50: #fafafa;
@@ -62,12 +62,14 @@
 
   /* Backgrounds */
   --color-background: var(--primitive-offwhite);
-  --color-header-background: var(--primitive-magenta);
+  --color-header-background: var(--primitive-transparent);
   --color-promo-background: var(
     --primitive-blue
   ); /* banner se siente premium */
   --color-marquee-background: var(--primitive-pink);
   --color-menu-background: var(--primitive-pink);
+  --color-menu-item-background: var(--primitive-pink);
+  --color-counter-background: var(--primitive-pink);
 
   /* Surfaces */
   --color-surface: var(--primitive-white);
@@ -78,12 +80,15 @@
   --color-text-primary: var(--primitive-black);
   --color-text-secondary: var(--primitive-gray-500);
   --color-text-inverse: var(--primitive-white);
+  --color-text-accent: var(--primitive-yellow);
 
   /* Buttons */
   --color-button-primary: var(--primitive-white); /* texto en fondo primary */
   --color-button-secondary: var(--primitive-pink); /* fondo CTA */
   --color-button-accent: var(--primitive-yellow); /* CTA alterno */
   --color-button-outlined: var(--primitive-transparent);
+
+  --color-button-primary-hover: var(--primitive-magenta);
 
   /* Borders / Divider */
   --color-border: var(--primitive-gray-300);

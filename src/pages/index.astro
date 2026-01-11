@@ -5,15 +5,16 @@ import GallerySection from "../components/molecules/GallerySection.astro";
 import Marquee from "../components/molecules/Marquee.astro";
 import PromoBar from "../components/molecules/PromoBar.astro";
 import QuoteBanner from "../components/molecules/QuoteBanner.astro";
+import Countdown from "../components/organisms/Countdown.astro";
 import Footer from "../components/organisms/Footer.astro";
 import Header from "../components/organisms/Header.astro";
 import HeroSection from "../components/organisms/HeroSection.astro";
-import WeeklySpecialsSection from "../components/organisms/WeeklySpecialsSection.astro";
+import RaceDetails from "../components/organisms/RaceDetails.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <div class="fixed z-10 top-0 left-0 right-0">
+  <div class="fixed z-20 top-0 left-0 right-0">
     <PromoBar />
     <Header />
   </div>
@@ -34,14 +35,14 @@ import Layout from "../layouts/Layout.astro";
       <Marquee />
     </section>
 
-    <!-- Weekly Specials -->
+    <!-- Race Details -->
     <section class="w-full">
-      <!-- <WeeklySpecialsSection /> -->
+      <RaceDetails />
     </section>
 
     <!-- Lifestyle / Catering Promo -->
     <section class="w-full">
-      <!-- <CateringSection /> -->
+      <Countdown />
     </section>
 
     <!-- Gallery (croissants etc.) -->

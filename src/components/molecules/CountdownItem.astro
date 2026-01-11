@@ -1,0 +1,15 @@
+---
+const { value, label } = Astro.props;
+---
+
+<div
+  id="countdown-item"
+  class="flex flex-col items-center justify-center gap-2"
+>
+  <p class="heading-3 text-(--color-text-inverse)">
+    {value}
+  </p>
+  <p class="body-16 text-(--color-text-inverse)">
+    {label.toLocaleUpperCase()}
+  </p>
+</div>

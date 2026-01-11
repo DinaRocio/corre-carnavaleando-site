@@ -1,202 +1,238 @@
 {
   "marquee": {
     "items": [
-      "Sustainable & Environmentally Friendly Practices",
-      "High quality goods",
-      "Voted Hartford County’s Best Coffee",
-      "From Vermont, With Love"
+      "10K • Ruta certificada • Cronometraje chip",
+      "Corre, vibra y celebra con tu gente",
+      "Medalla finisher + fotos oficiales",
+      "Hidratación + música + comunidad runner"
     ]
   },
   "promoBar": {
     "enabled": true,
-    "message": "Selected catering items available to order now!",
-    "linkLabel": "Order Now",
+    "message": "¡Inscripciones abiertas! Cupos limitados para el 10K.",
+    "linkLabel": "Inscríbete ahora",
     "linkHref": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
   },
   "site": {
-    "name": "Coffee Coffee",
-    "tagline": "Neighborhood coffee & baked goods",
+    "name": "Corre Carnavaleando 10K",
+    "tagline": "La carrera que se vive como fiesta",
     "locale": "en-US",
-    "ogTitle": "Coffee Coffee",
-    "ogDescription": "Neighborhood coffee & baked goods",
+    "ogTitle": "Corre Carnavaleando 10K",
+    "ogDescription": "10K con ruta certificada, medalla finisher y experiencia completa. ¡Nos vemos en la línea de partida!",
     "ogImage": "/images/hero-coffee.jpg"
   },
   "quoteBanner": {
-    "eyebrow": "Who we are",
-    "quote": "\"We take pride in our focus on locally-sourced products, a commitment to **high quality goods** and services, and sustainable & environmentally friendly practices.\"",
-    "meta": "4.9 rating from 1,200+ reviews"
+    "eyebrow": "Qué es este evento",
+    "quote": "\"Corre Carnavaleando es una carrera de **10K** pensada para celebrar el movimiento: ruta segura, cronometraje con chip, hidratación y una vibra que te empuja a llegar a meta.\"",
+    "meta": "Evento anual • +1,200 runners en ediciones previas"
   },
   "header": {
     "logo": {
-      "text": "Coffee Coffee",
+      "text": "Corre Carnavaleando 10K",
       "href": "/"
     },
-    "items": [
+    "items_left": [
       {
-        "label": "Inscríbete",
+        "label": "Información",
         "href": "/inscribe"
       },
       {
         "label": "Conócenos",
         "href": "/about"
+      }
+    ],
+    "items_right": [
+      {
+        "label": "Recorrido",
+        "href": "/about"
       },
       {
-        "label": "Resultados",
+        "label": "Inscríbete Ahora",
         "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9",
         "isCta": true
       }
     ]
   },
   "gallery": {
-    "title": "Little moments, lots of coffee.",
+    "title": "Momentos de carrera. Recuerdos de por vida.",
     "items": [
       {
         "id": "croissants",
         "src": "/images/image-carrusel-1.webp",
-        "alt": "Barista pouring latte art"
+        "alt": "Runners calentando antes de la partida"
       },
       {
         "id": "cream",
         "src": "/images/image-carrusel-2.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Salida del 10K con ambiente de fiesta"
       },
       {
         "id": "toast",
         "src": "/images/image-carrusel-3.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Punto de hidratación durante la carrera"
       },
       {
         "id": "cupcakes",
         "src": "/images/image-carrusel-4.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Finisher cruzando la meta con medalla"
       },
       {
         "id": "cream",
         "src": "/images/image-carrusel-2.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Runners celebrando después de la carrera"
       },
       {
         "id": "toast",
         "src": "/images/image-carrusel-3.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Ruta urbana del 10K con público apoyando"
       },
       {
         "id": "cupcakes",
         "src": "/images/image-carrusel-4.webp",
-        "alt": "Coffee bar with pastries on display"
+        "alt": "Foto grupal de finisher con medallas"
       }
     ]
   },
+  "raceDetails": {
+    "details": [
+      {
+        "icon": "calendar",
+        "title": "Fecha/Hora",
+        "body": "Febrero 23, 2026 - 5:30am"
+      },
+      {
+        "icon": "10k",
+        "title": "Distancia",
+        "body": "10K"
+      },
+      {
+        "icon": "map",
+        "title": "Lugar de partida",
+        "body": "Plaza Principal — Zona de salida y meta"
+      },
+      {
+        "icon": "medal",
+        "title": "Incluye",
+        "body": "Chip de cronometraje • Medalla finisher • Hidratación"
+      }
+    ]
+  },
+  "counter": {
+    "heading": "PREPÁRATE PARA SENTIRTE LIBRE",
+    "subheading": "",
+    "days": "Días",
+    "hours": "Hor",
+    "minutes": "Min",
+    "seconds": "Seg",
+    "raceDate": "2026-02-23T07:00:00"
+  },
   "doorDashButton": {
-    "label": "Order Online & Pickup",
+    "label": "Ver Inscripción y Kits",
     "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
   },
   "hero": {
-    "eyebrow": "Since 2008",
-    "title": "Vive la experiencia Corre Carnavaleando 2026",
-    "body": "Próxima edición: 23 de Agosto 2026",
+    "eyebrow": "Edición 2026",
+    "title": "Vive la experiencia Corre Carnavaleando 10K",
+    "body": "Próxima edición: 23 de Agosto 2026 • Ruta certificada • Medalla finisher • Fruta",
     "primaryCta": {
       "label": "Inscríbete",
       "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
     },
     "image": {
       "src": "/images/hero-coffee.jpg",
-      "alt": "Two cappuccinos and a croissant on a wooden table"
+      "alt": "Runners en la salida del 10K, ambiente de carrera"
     }
   },
   "footer": {
     "locationsColumn": {
-      "title": "Our Locations",
+      "title": "Información del Evento",
       "locations": [
         {
-          "name": "Festival Shopping Center",
-          "address": [
-            "5 Bel Air South Parkway Suite117",
-            "Bel Air, Maryland 21015"
-          ],
-          "phone": "(410) 515-2060",
-          "openingDays": "Open 7 Days Per Week!",
-          "openingHours": "7am - 5pm"
+          "name": "Punto de partida y meta",
+          "address": ["Plaza Principal • Zona de salida", "Ciudad • País"],
+          "phone": "(+51) 999 999 999",
+          "openingDays": "Evento único (Edición 2026)",
+          "openingHours": "Concentración 5:30am • Partida 7:00am"
         },
         {
-          "name": "Bel Air Farmer’s Market",
-          "address": ["2 S. Bond Street", "Bel Air, MD 21014"],
-          "availability": "April - December",
-          "openingDays": "Saturdays",
-          "openingHours": "7am - 11am"
+          "name": "Entrega de kits",
+          "address": ["Centro de Convenciones", "Dirección por confirmar"],
+          "availability": "Días previos al evento",
+          "openingDays": "Viernes y Sábado",
+          "openingHours": "10am - 7pm"
         }
       ]
     },
     "footerMainLinks": [
       {
-        "title": "Shop",
+        "title": "Participa",
         "links": [
           {
-            "label": "Order Online",
+            "label": "Inscríbete",
             "href": "https://coffeecoffeebelair.square.site/"
           },
           {
-            "label": "Coffee Beans",
+            "label": "Categorías",
             "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#5"
           },
           {
-            "label": "Gift Cards",
+            "label": "Kit del corredor",
             "href": "https://squareup.com/gift/28D6NJ898NS72/order"
           },
           {
-            "label": "Merchandise",
+            "label": "Preguntas frecuentes",
             "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#6"
           },
           {
-            "label": "Gift Baskets",
+            "label": "Reglamento",
             "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#8"
           }
         ]
       },
       {
-        "title": "Contact Us",
+        "title": "Contacto",
         "links": [
           {
-            "label": "Join Our Team",
+            "label": "Voluntariado",
             "href": "https://www.coffeecoffee-online.com/join-our-team"
           },
           {
-            "label": "Catering",
+            "label": "Sponsors / Marcas",
             "href": "https://www.coffeecoffee-online.com/catering"
           },
           {
-            "label": "Email Us",
+            "label": "Escríbenos",
             "href": "mailto:coffeecoffeebelair@gmail.com"
           },
           {
-            "label": "Call Us",
+            "label": "Llámanos",
             "href": "tel:(410)515-2060"
           }
         ]
       },
       {
-        "title": "Who We Are",
+        "title": "El Evento",
         "links": [
           {
-            "label": "About Us",
+            "label": "Sobre la carrera",
             "href": "https://www.coffeecoffee-online.com/contact-1"
           },
           {
-            "label": "The Vermont Connection",
+            "label": "Seguridad y ruta",
             "href": "/vermont"
           },
           {
-            "label": "Farmer’s Market",
+            "label": "Recorrido 10K",
             "href": "/market"
           },
           {
-            "label": "Join Our Team",
+            "label": "Política de inscripción",
             "href": "https://www.coffeecoffee-online.com/join-our-team"
           }
         ]
       },
       {
-        "title": "Follow Us",
+        "title": "Síguenos",
         "links": [
           {
             "label": "Instagram",
@@ -207,7 +243,7 @@
             "href": "https://www.facebook.com/coffeecoffeebelair"
           },
           {
-            "label": "Spotify Playlist",
+            "label": "Playlist para entrenar",
             "href": "#"
           }
         ]
@@ -215,83 +251,83 @@
     ],
     "legal": [
       {
-        "label": "Privacy Policy",
+        "label": "Privacidad",
         "href": "/privacy"
       },
       {
-        "label": "Terms and Conditions",
+        "label": "Términos y condiciones",
         "href": "/terms"
       },
       {
-        "label": "Do not sell my Information",
+        "label": "No vender mi información",
         "href": "/do-not-sell"
       },
       {
-        "label": "Return Policy",
+        "label": "Política de devoluciones",
         "href": "/returns"
       }
     ],
-    "copyright": "Coffee Coffee. 2025"
+    "copyright": "Corre Carnavaleando 10K. 2026"
   },
   "weeklySpecials": {
-    "title": "Weekly <br> Specials",
-    "subtitle": "In a hurry? Selected items available for quick pickup.",
+    "title": "Plan de <br> Entrenamiento",
+    "subtitle": "Tips, sesiones recomendadas y recordatorios para llegar con todo al 10K.",
     "primaryCta": {
-      "label": "Order Online",
+      "label": "Ver guía completa",
       "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
     },
     "image": {
       "src": "/images/weekly-specials.webp",
-      "alt": "Weekly  Specials"
+      "alt": "Plan de entrenamiento para 10K"
     },
     "items": [
       {
         "id": "1",
-        "day": "Monday",
-        "name": "Bean Day*",
-        "description": "*Get a free medium cup of drip coffee when you purchase #1 or more of beans.",
+        "day": "Semana 1",
+        "name": "Base aeróbica",
+        "description": "Carreras suaves + técnica. Construye ritmo sin quemarte.",
         "tag": "see-details"
       },
       {
         "id": "2",
-        "day": "Tuesday",
-        "name": "Frittatas Day* + Teachers Day*",
-        "description": "*Our special includes 15% off Frittatas when using code FRITTATA for online orders, alongside Teacher Tuesday, which offers 20% off one drink for school employees with ID.",
+        "day": "Semana 2",
+        "name": "Fuerza + cuestas",
+        "description": "Sesiones cortas intensas para piernas fuertes y zancada estable.",
         "tag": "see-details"
       },
       {
         "id": "3",
-        "day": "Wednesday",
-        "name": "Breakfast Wrap Special & Panini Special",
+        "day": "Semana 3",
+        "name": "Series / velocidad",
         "tag": "see-details"
       },
       {
         "id": "4",
-        "day": "Thursday",
-        "name": "Breakfast Wrap Special"
+        "day": "Semana 4",
+        "name": "Progresivos y ritmo 10K"
       },
       {
         "id": "5",
-        "day": "Friday",
-        "name": "Weekly Special Frittata Option"
+        "day": "Semana 5",
+        "name": "Taper + descanso inteligente"
       }
     ]
   },
   "catering": {
-    "eyebrow": "We offer catering services",
-    "title": "Coffee, <br /> Bakery, <br /> Sandwiches & <br/> more ",
-    "body": "From office breakfasts to weekend brunches, we’ve got the coffee, pastries, and treats covered.",
+    "eyebrow": "Vive el evento completo",
+    "title": "Kit del corredor, <br /> ruta segura, <br /> hidratación <br/> y experiencia",
+    "body": "Entrena, corre y celebra: cronometraje con chip, puntos de hidratación, asistencia médica y fotos oficiales.",
     "primaryCta": {
-      "label": "Order Online",
+      "label": "Ver detalles",
       "href": "https://www.coffeecoffee-online.com/catering"
     },
     "image": {
       "src": "/images/image-2.webp",
-      "alt": "Coffee urns and pastry platters set up for an event"
+      "alt": "Zona de hidratación y asistencia durante una carrera"
     },
     "primaryImage": {
       "src": "/images/image-grid-1.webp",
-      "alt": "Coffee urns and pastry platters set up for an event"
+      "alt": "Kit del corredor y entrega de medallas finisher"
     }
   }
 }

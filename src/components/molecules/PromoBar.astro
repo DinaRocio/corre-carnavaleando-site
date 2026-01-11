@@ -21,8 +21,11 @@ const {} = Astro.props;
 >
   <div class="flex w-full items-center justify-center px-4 py-2.5 gap-1.5">
     <p class=`body-14 text-(--color-text-inverse)`>{site.promoBar.message}</p>
-    <Link size="sm" href={site.promoBar.linkHref} textTone="inverse" underline
-      >{site.promoBar.linkLabel}</Link
+    <Link
+      size="sm"
+      href={site.promoBar.linkHref}
+      style="text-(--color-text-inverse)"
+      underline>{site.promoBar.linkLabel}</Link
     >
   </div>
 </aside>
