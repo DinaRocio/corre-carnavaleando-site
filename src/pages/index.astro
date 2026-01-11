@@ -1,16 +1,18 @@
 ---
 import CateringSection from "../components/molecules/CateringSection.astro";
 import DoordashButton from "../components/molecules/DoordashButton.astro";
-import GallerySection from "../components/molecules/GallerySection.astro";
+import GallerySection from "../components/organisms/GallerySection.astro";
 import Marquee from "../components/molecules/Marquee.astro";
 import PromoBar from "../components/molecules/PromoBar.astro";
 import QuoteBanner from "../components/molecules/QuoteBanner.astro";
+import About from "../components/organisms/About.astro";
 import Countdown from "../components/organisms/Countdown.astro";
 import Footer from "../components/organisms/Footer.astro";
 import Header from "../components/organisms/Header.astro";
 import HeroSection from "../components/organisms/HeroSection.astro";
 import RaceDetails from "../components/organisms/RaceDetails.astro";
 import Layout from "../layouts/Layout.astro";
+import Sponsors from "../components/organisms/Sponsors.astro";
 ---
 
 <Layout>
@@ -23,11 +25,6 @@ import Layout from "../layouts/Layout.astro";
     <!-- Hero -->
     <section class="w-full">
       <HeroSection />
-    </section>
-
-    <!-- Quote Banner -->
-    <section class="w-full">
-      <!-- <QuoteBanner /> -->
     </section>
 
     <!-- Marquee divider -->
@@ -47,7 +44,15 @@ import Layout from "../layouts/Layout.astro";
 
     <!-- Gallery (croissants etc.) -->
     <section class="w-full">
-      <!-- <GallerySection /> -->
+      <About />
+    </section>
+    <!-- Gallery -->
+    <section class="w-full">
+      <GallerySection />
+    </section>
+    <!-- Sponsors divider -->
+    <section class="w-full">
+      <Sponsors />
     </section>
   </main>
 

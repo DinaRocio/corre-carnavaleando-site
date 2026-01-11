@@ -29,10 +29,14 @@
 
   /* Brand palette (yours) */
   --primitive-pink: #f2055c;
+  --primitive-pink-soft: #ef72b7;
   --primitive-magenta: #f20587;
+  --primitive-magenta-soft: #f20587;
   --primitive-blue: #0460d9;
+  --primitive-blue-soft: #6dacff;
   --primitive-yellow: #fcb900;
-  --primitive-orange: #f24405;
+  --primitive-yellow-soft: #ffe292;
+  --primitive-orange: #ff9e37;
 
   /* Neutrals (UX essentials) */
   --primitive-white: #ffffff;
@@ -59,17 +63,26 @@
   --color-secondary: var(--primitive-blue); /* Links / Secondary actions */
   --color-accent: var(--primitive-yellow); /* Badges / Emphasis */
   --color-brand-alt: var(--primitive-magenta); /* Special highlight */
+  --color-brand-tertiary: var(--primitive-orange); /* Special highlight */
+
+  /* Gradiente Brand */
+  --color-gradient-primary: var(--primitive-pink-soft);
+  --color-gradient-secondary: var(--primitive-blue-soft);
+  --color-gradient-accent: var(--primitive-yellow-soft);
+  --color-gradient-brand-alt: var(--primitive-magenta-soft);
 
   /* Backgrounds */
   --color-background: var(--primitive-offwhite);
   --color-header-background: var(--primitive-transparent);
-  --color-promo-background: var(
-    --primitive-blue
-  ); /* banner se siente premium */
+  --color-promo-background: var(--primitive-blue);
   --color-marquee-background: var(--primitive-pink);
   --color-menu-background: var(--primitive-pink);
   --color-menu-item-background: var(--primitive-pink);
   --color-counter-background: var(--primitive-pink);
+  --color-about-background: var(--primitive-pink);
+  --color-footer-background: var(--primitive-blue);
+  --color-sponsors-background: var(--primitive-offwhite);
+  --color-gallery-background: var(--primitive-orange);
 
   /* Surfaces */
   --color-surface: var(--primitive-white);

@@ -11,7 +11,7 @@
     "enabled": true,
     "message": "¡Inscripciones abiertas! Cupos limitados para el 10K.",
     "linkLabel": "Inscríbete ahora",
-    "linkHref": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+    "linkHref": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
   },
   "site": {
     "name": "Corre Carnavaleando 10K",
@@ -48,7 +48,7 @@
       },
       {
         "label": "Inscríbete Ahora",
-        "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform",
         "isCta": true
       }
     ]
@@ -58,38 +58,63 @@
     "items": [
       {
         "id": "croissants",
-        "src": "/images/image-carrusel-1.webp",
+        "src": "/images/gallery/corre-carnavaleando-1.webp",
         "alt": "Runners calentando antes de la partida"
       },
       {
         "id": "cream",
-        "src": "/images/image-carrusel-2.webp",
+        "src": "/images/gallery/corre-carnavaleando-2.webp",
         "alt": "Salida del 10K con ambiente de fiesta"
       },
       {
         "id": "toast",
-        "src": "/images/image-carrusel-3.webp",
+        "src": "/images/gallery/corre-carnavaleando-3.webp",
         "alt": "Punto de hidratación durante la carrera"
       },
       {
         "id": "cupcakes",
-        "src": "/images/image-carrusel-4.webp",
+        "src": "/images/gallery/corre-carnavaleando-4.webp",
         "alt": "Finisher cruzando la meta con medalla"
       },
       {
         "id": "cream",
-        "src": "/images/image-carrusel-2.webp",
+        "src": "/images/gallery/corre-carnavaleando-5.webp",
         "alt": "Runners celebrando después de la carrera"
       },
       {
         "id": "toast",
-        "src": "/images/image-carrusel-3.webp",
+        "src": "/images/gallery/corre-carnavaleando-6.webp",
         "alt": "Ruta urbana del 10K con público apoyando"
       },
       {
         "id": "cupcakes",
-        "src": "/images/image-carrusel-4.webp",
+        "src": "/images/gallery/corre-carnavaleando-7.webp",
         "alt": "Foto grupal de finisher con medallas"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Gracias a nuestros patrocinadores: ",
+    "items": [
+      {
+        "src": "images/sponsors/1.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/2.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/3.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/4.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/5.png",
+        "alt": "Runners calentando antes de la partida"
       }
     ]
   },
@@ -126,17 +151,23 @@
     "seconds": "Seg",
     "raceDate": "2026-02-23T07:00:00"
   },
+  "about": {
+    "heading": "Conócenos",
+    "eyebrow": "Corre Carnavaleando",
+    "quote": "La Media Maratón de Pimentel es un destacado evento deportivo pedestre que tiene por objetivo ofrecer al corredor una experiencia única e inolvidable, esta incluye tres distancias: 5K, 10K y el desafiante Medio Maratón de 21K, el cual se llevará a cabo el tercer domingo de octubre de cada año en el balneario del distrito de Pimentel, provincia de Chiclayo, departamento de Lambayeque. El evento destaca por su ruta variada, que incluye asfalto, dunas, senderos de tierra y arena. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes.",
+    "meta": "Evento anual • +1,200 runners en ediciones previas"
+  },
   "doorDashButton": {
     "label": "Ver Inscripción y Kits",
-    "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+    "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
   },
   "hero": {
     "eyebrow": "Edición 2026",
     "title": "Vive la experiencia Corre Carnavaleando 10K",
-    "body": "Próxima edición: 23 de Agosto 2026 • Ruta certificada • Medalla finisher • Fruta",
+    "body": "Próxima edición: 13 de Febrero 2026 • Ruta certificada • Medalla finisher • Fruta",
     "primaryCta": {
       "label": "Inscríbete",
-      "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
     },
     "image": {
       "src": "/images/hero-coffee.jpg",
@@ -274,7 +305,7 @@
     "subtitle": "Tips, sesiones recomendadas y recordatorios para llegar con todo al 10K.",
     "primaryCta": {
       "label": "Ver guía completa",
-      "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#9"
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
     },
     "image": {
       "src": "/images/weekly-specials.webp",
