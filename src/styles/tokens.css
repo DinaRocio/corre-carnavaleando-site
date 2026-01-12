@@ -83,6 +83,7 @@
   --color-footer-background: var(--primitive-blue);
   --color-sponsors-background: var(--primitive-offwhite);
   --color-gallery-background: var(--primitive-orange);
+  --color-race-details-background:  var(--primitive-orange);
 
   /* Surfaces */
   --color-surface: var(--primitive-white);

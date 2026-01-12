@@ -19,11 +19,11 @@
     "locale": "en-US",
     "ogTitle": "Corre Carnavaleando 10K",
     "ogDescription": "10K con ruta certificada, medalla finisher y experiencia completa. ¡Nos vemos en la línea de partida!",
-    "ogImage": "/images/hero-coffee.jpg"
+    "ogImage": "/images/hero-carnavaleando.jpg"
   },
   "quoteBanner": {
     "eyebrow": "Qué es este evento",
-    "quote": "\"Corre Carnavaleando es una carrera de **10K** pensada para celebrar el movimiento: ruta segura, cronometraje con chip, hidratación y una vibra que te empuja a llegar a meta.\"",
+    "quote": "Corre Carnavaleando es una carrera de **10K** pensada para celebrar el movimiento: ruta segura, cronometraje con chip, hidratación y una vibra que te empuja a llegar a meta.",
     "meta": "Evento anual • +1,200 runners en ediciones previas"
   },
   "header": {
@@ -55,6 +55,7 @@
   },
   "gallery": {
     "title": "Momentos de carrera. Recuerdos de por vida.",
+    "description": " Los momentos de la carrera son inolvidables.",
     "items": [
       {
         "id": "croissants",
@@ -154,7 +155,11 @@
   "about": {
     "heading": "Conócenos",
     "eyebrow": "Corre Carnavaleando",
-    "quote": "La Media Maratón de Pimentel es un destacado evento deportivo pedestre que tiene por objetivo ofrecer al corredor una experiencia única e inolvidable, esta incluye tres distancias: 5K, 10K y el desafiante Medio Maratón de 21K, el cual se llevará a cabo el tercer domingo de octubre de cada año en el balneario del distrito de Pimentel, provincia de Chiclayo, departamento de Lambayeque. El evento destaca por su ruta variada, que incluye asfalto, dunas, senderos de tierra y arena. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes.",
+    "paragraphs": [
+      "Bienvenidos a Corre Carnavaleando 2026, cada año, más de 1,200 corredores se dan cita para vivir una experiencia que va más allá del deporte. Esta carrera incluye tres distancias: 5K, 10K y el desafiante Medio Maratón de 21K.",
+      "Correr Corre Carnavaleando no es solo completar kilómetros; es romper límites, conquistar metas y sentir la libertad en cada paso. El evento se llevará a cabo el día del carnaval.",
+      "El evento destaca por su ruta variada, que incluye asfalto, dunas, senderos de tierra y arena. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes."
+    ],
     "meta": "Evento anual • +1,200 runners en ediciones previas"
   },
   "doorDashButton": {
@@ -170,7 +175,7 @@
       "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
     },
     "image": {
-      "src": "/images/hero-coffee.jpg",
+      "src": "/images/hero-carnavaleando.jpg",
       "alt": "Runners en la salida del 10K, ambiente de carrera"
     }
   },
@@ -200,11 +205,11 @@
         "links": [
           {
             "label": "Inscríbete",
-            "href": "https://coffeecoffeebelair.square.site/"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Categorías",
-            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#5"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Kit del corredor",
@@ -212,11 +217,11 @@
           },
           {
             "label": "Preguntas frecuentes",
-            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#6"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Reglamento",
-            "href": "https://coffeecoffeebelair.square.site/s/order?location=7AHBQABYCE65G&menu=true#8"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           }
         ]
       },
@@ -225,15 +230,15 @@
         "links": [
           {
             "label": "Voluntariado",
-            "href": "https://www.coffeecoffee-online.com/join-our-team"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Sponsors / Marcas",
-            "href": "https://www.coffeecoffee-online.com/catering"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Escríbenos",
-            "href": "mailto:coffeecoffeebelair@gmail.com"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Llámanos",
@@ -246,7 +251,7 @@
         "links": [
           {
             "label": "Sobre la carrera",
-            "href": "https://www.coffeecoffee-online.com/contact-1"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Seguridad y ruta",
@@ -258,7 +263,7 @@
           },
           {
             "label": "Política de inscripción",
-            "href": "https://www.coffeecoffee-online.com/join-our-team"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           }
         ]
       },
@@ -267,11 +272,11 @@
         "links": [
           {
             "label": "Instagram",
-            "href": "https://www.instagram.com/coffeecoffeebelair"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Facebook",
-            "href": "https://www.facebook.com/coffeecoffeebelair"
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
           },
           {
             "label": "Playlist para entrenar",
@@ -350,7 +355,7 @@
     "body": "Entrena, corre y celebra: cronometraje con chip, puntos de hidratación, asistencia médica y fotos oficiales.",
     "primaryCta": {
       "label": "Ver detalles",
-      "href": "https://www.coffeecoffee-online.com/catering"
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
     },
     "image": {
       "src": "/images/image-2.webp",
