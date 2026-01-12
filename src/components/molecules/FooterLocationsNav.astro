@@ -1,0 +1,36 @@
+---
+import site from "../../content/site.json";
+---
+
+<div class="flex flex-col gap-6 mb-6 md:mb-0">
+  <h3 class="body-16-semibold">{site.footer.locationsColumn.title}</h3>
+
+  {
+    site.footer.locationsColumn.locations.map((loc) => (
+      <div class="flex flex-col gap-3">
+        {/* Name & Address */}
+        <div>
+          <p>{loc.name}</p>
+          {loc.address && (
+            <div>
+              {loc.address.map((line) => (
+                <p>{line}</p>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Phone */}
+        {loc.phone && <p>{loc.phone}</p>}
+        {/* Availability (season) */}
+        {loc.availability && <p>{loc.availability}</p>}
+
+        {/* Opening Days & Opening Hours */}
+        <div>
+          {loc.openingDays && <p>{loc.openingDays}</p>}
+          {loc.openingHours && <p>{loc.openingHours}</p>}
+        </div>
+      </div>
+    ))
+  }
+</div>

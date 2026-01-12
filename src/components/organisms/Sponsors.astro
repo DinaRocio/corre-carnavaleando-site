@@ -1,0 +1,45 @@
+---
+import site from "../../content/site.json";
+
+const marqueeItems = site.marquee.items;
+---
+
+<section
+  id="sponsors"
+  class="w-full px-10 py-20 overflow-hidden bg-(--color-sponsors-background)"
+>
+  <h2 class="heading-2 text-(--color-text) text-center gap-4">
+    {site.sponsors.title.toUpperCase()}
+  </h2>
+  <div class="flex justify-center items-center gap-6">
+    {
+      site.sponsors.items.map((item, index) => (
+        <img src={item.src} alt={item.alt} width={100} height={100} />
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-25%);
+    }
+  }
+
+  /* to prevent animation on reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track {
+      animation: none;
+    }
+  }
+</style>

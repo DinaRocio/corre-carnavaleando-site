@@ -1,0 +1,375 @@
+{
+  "marquee": {
+    "items": [
+      "10K • Ruta certificada • Cronometraje chip",
+      "Corre, vibra y celebra con tu gente",
+      "Medalla finisher + fotos oficiales",
+      "Hidratación + música + comunidad runner"
+    ]
+  },
+  "promoBar": {
+    "enabled": true,
+    "message": "¡Inscripciones abiertas! Cupos limitados para el 10K.",
+    "linkLabel": "Inscríbete ahora",
+    "linkHref": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+  },
+  "floatingButton": {
+    "enabled": true,
+    "linkLabel": "Inscríbete ahora",
+    "linkHref": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+  },
+  "site": {
+    "name": "Corre Carnavaleando 10K",
+    "tagline": "La carrera que se vive como fiesta",
+    "locale": "en-US",
+    "ogTitle": "Corre Carnavaleando 10K",
+    "ogDescription": "10K con ruta certificada, medalla finisher y experiencia completa. ¡Nos vemos en la línea de partida!",
+    "ogImage": "/images/hero-carnavaleando.jpg"
+  },
+  "quoteBanner": {
+    "eyebrow": "Qué es este evento",
+    "quote": "Corre Carnavaleando es una carrera de **10K** pensada para celebrar el movimiento: ruta segura, cronometraje con chip, hidratación y una vibra que te empuja a llegar a meta.",
+    "meta": "Evento anual • +1,200 runners en ediciones previas"
+  },
+  "header": {
+    "logo": {
+      "text": "Corre Carnavaleando 10K",
+      "href": "/"
+    },
+    "items_left": [
+      {
+        "label": "Información",
+        "href": "/inscribe"
+      },
+      {
+        "label": "Conócenos",
+        "href": "#about"
+      }
+    ],
+    "items_right": [
+      {
+        "label": "Recorrido",
+        "href": "/about"
+      },
+      {
+        "label": "Inscríbete Ahora",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform",
+        "isCta": true
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Momentos de carrera. Recuerdos de por vida.",
+    "description": " Los momentos de la carrera son inolvidables.",
+    "items": [
+      {
+        "id": "croissants",
+        "src": "/images/gallery/corre-carnavaleando-1.webp",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "id": "cream",
+        "src": "/images/gallery/corre-carnavaleando-2.webp",
+        "alt": "Salida del 10K con ambiente de fiesta"
+      },
+      {
+        "id": "toast",
+        "src": "/images/gallery/corre-carnavaleando-3.webp",
+        "alt": "Punto de hidratación durante la carrera"
+      },
+      {
+        "id": "cupcakes",
+        "src": "/images/gallery/corre-carnavaleando-4.webp",
+        "alt": "Finisher cruzando la meta con medalla"
+      },
+      {
+        "id": "cream",
+        "src": "/images/gallery/corre-carnavaleando-5.webp",
+        "alt": "Runners celebrando después de la carrera"
+      },
+      {
+        "id": "toast",
+        "src": "/images/gallery/corre-carnavaleando-6.webp",
+        "alt": "Ruta urbana del 10K con público apoyando"
+      },
+      {
+        "id": "cupcakes",
+        "src": "/images/gallery/corre-carnavaleando-7.webp",
+        "alt": "Foto grupal de finisher con medallas"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Gracias a nuestros patrocinadores: ",
+    "items": [
+      {
+        "src": "images/sponsors/1.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/2.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/3.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/4.png",
+        "alt": "Runners calentando antes de la partida"
+      },
+      {
+        "src": "images/sponsors/5.png",
+        "alt": "Runners calentando antes de la partida"
+      }
+    ]
+  },
+  "raceDetails": {
+    "details": [
+      {
+        "icon": "calendar",
+        "title": "Fecha/Hora",
+        "body": "Febrero 23, 2026 - 7:00am"
+      },
+      {
+        "icon": "10k",
+        "title": "Distancia",
+        "body": "10K"
+      },
+      {
+        "icon": "map",
+        "title": "Lugar de partida",
+        "body": "Plaza Principal — Zona de salida y meta"
+      },
+      {
+        "icon": "medal",
+        "title": "Incluye",
+        "body": "Chip de cronometraje • Medalla finisher • Hidratación por S/50"
+      }
+    ]
+  },
+  "counter": {
+    "heading": "PREPÁRATE PARA SENTIRTE LIBRE",
+    "subheading": "",
+    "days": "Días",
+    "hours": "Hor",
+    "minutes": "Min",
+    "seconds": "Seg",
+    "raceDate": "2026-02-23T07:00:00"
+  },
+  "about": {
+    "heading": "Conócenos",
+    "eyebrow": "Corre Carnavaleando",
+    "paragraphs": [
+      "Bienvenidos a Corre Carnavaleando 2026, cada año, más de 1,200 corredores se dan cita para vivir una experiencia que va más allá del deporte. Esta carrera incluye tres distancias: 5K, 10K y el desafiante Medio Maratón de 21K.",
+      "Correr Corre Carnavaleando no es solo completar kilómetros; es romper límites, conquistar metas y sentir la libertad en cada paso. El evento se llevará a cabo el día del carnaval.",
+      "El evento destaca por su ruta variada, que incluye asfalto, dunas, senderos de tierra y arena. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes."
+    ],
+    "meta": "Evento anual • +1,200 runners en ediciones previas"
+  },
+  "doorDashButton": {
+    "label": "Ver Inscripción y Kits",
+    "href": "https://api.whatsapp.com/send?phone=51929011992&text=Hola!%20%F0%9F%91%8B%20Me%20interesa%20la%20carrera.%0A%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%2C%20precio%20y%20horarios%3F%20Gracias."
+  },
+  "hero": {
+    "eyebrow": "Edición 2026",
+    "title": "Vive la experiencia Corre Carnavaleando 10K",
+    "body": "Próxima edición: 13 de Febrero 2026 • Ruta certificada • Medalla finisher • Fruta",
+    "primaryCta": {
+      "label": "Inscríbete",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+    },
+    "image": {
+      "src": "/images/hero-carnavaleando.jpg",
+      "alt": "Runners en la salida del 10K, ambiente de carrera"
+    }
+  },
+  "footer": {
+    "locationsColumn": {
+      "title": "Información del Evento",
+      "locations": [
+        {
+          "name": "Punto de partida y meta",
+          "address": ["Plaza de Armas de Baños del Inca • Cajamarca • Perú"],
+          "phone": "(+51) 929 011 992",
+          "email": "correcarnavaleando2026@gmail.com",
+          "openingDays": "Evento único (Edición 2026)",
+          "openingHours": "Concentración 6:30am • Partida 7:00am"
+        },
+        {
+          "name": "Entrega de kits",
+          "address": ["Centro de Convenciones • Cajamarca • Perú"],
+          "availability": "Días previos al evento",
+          "openingDays": "Viernes y Sábado",
+          "openingHours": "10am - 7pm"
+        }
+      ]
+    },
+    "footerMainLinks": [
+      {
+        "title": "Participa",
+        "links": [
+          {
+            "label": "Inscríbete",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Categorías",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Kit del corredor",
+            "href": "https://squareup.com/gift/28D6NJ898NS72/order"
+          },
+          {
+            "label": "Preguntas frecuentes",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Reglamento",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          }
+        ]
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          {
+            "label": "Voluntariado",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Sponsors / Marcas",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Escríbenos",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Llámanos",
+            "href": "tel:51929011992"
+          }
+        ]
+      },
+      {
+        "title": "El Evento",
+        "links": [
+          {
+            "label": "Sobre la carrera",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Seguridad y ruta",
+            "href": "/vermont"
+          },
+          {
+            "label": "Recorrido 10K",
+            "href": "/market"
+          },
+          {
+            "label": "Política de inscripción",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          }
+        ]
+      },
+      {
+        "title": "Síguenos",
+        "links": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/correcarnavaleando2026/"
+          },
+          {
+            "label": "Facebook",
+            "href": "https://www.facebook.com/MARATONISTAaLAVISTA/photos/inician-inscripciones-para-corre-carnavaleando-cajamarca-1ok/1279316640908221/"
+          },
+          {
+            "label": "Playlist para entrenar",
+            "href": "https://open.spotify.com/playlist/7ClQ07nJipY2x4WuUstlo5?si=81cf184355cb4996"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacidad",
+        "href": "/privacy"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "/terms"
+      },
+      {
+        "label": "No vender mi información",
+        "href": "/do-not-sell"
+      },
+      {
+        "label": "Política de devoluciones",
+        "href": "/returns"
+      }
+    ],
+    "copyright": "Corre Carnavaleando 10K. 2026"
+  },
+  "weeklySpecials": {
+    "title": "Plan de <br> Entrenamiento",
+    "subtitle": "Tips, sesiones recomendadas y recordatorios para llegar con todo al 10K.",
+    "primaryCta": {
+      "label": "Ver guía completa",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+    },
+    "image": {
+      "src": "/images/weekly-specials.webp",
+      "alt": "Plan de entrenamiento para 10K"
+    },
+    "items": [
+      {
+        "id": "1",
+        "day": "Semana 1",
+        "name": "Base aeróbica",
+        "description": "Carreras suaves + técnica. Construye ritmo sin quemarte.",
+        "tag": "see-details"
+      },
+      {
+        "id": "2",
+        "day": "Semana 2",
+        "name": "Fuerza + cuestas",
+        "description": "Sesiones cortas intensas para piernas fuertes y zancada estable.",
+        "tag": "see-details"
+      },
+      {
+        "id": "3",
+        "day": "Semana 3",
+        "name": "Series / velocidad",
+        "tag": "see-details"
+      },
+      {
+        "id": "4",
+        "day": "Semana 4",
+        "name": "Progresivos y ritmo 10K"
+      },
+      {
+        "id": "5",
+        "day": "Semana 5",
+        "name": "Taper + descanso inteligente"
+      }
+    ]
+  },
+  "catering": {
+    "eyebrow": "Vive el evento completo",
+    "title": "Kit del corredor, <br /> ruta segura, <br /> hidratación <br/> y experiencia",
+    "body": "Entrena, corre y celebra: cronometraje con chip, puntos de hidratación, asistencia médica y fotos oficiales.",
+    "primaryCta": {
+      "label": "Ver detalles",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+    },
+    "image": {
+      "src": "/images/image-2.webp",
+      "alt": "Zona de hidratación y asistencia durante una carrera"
+    },
+    "primaryImage": {
+      "src": "/images/image-grid-1.webp",
+      "alt": "Kit del corredor y entrega de medallas finisher"
+    }
+  }
+}

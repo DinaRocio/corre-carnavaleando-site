@@ -1,0 +1,53 @@
+---
+import site from "../../content/site.json";
+import CountdownItem from "../molecules/CountdownItem.astro";
+
+const raceDate = new Date(site.counter.raceDate).getTime();
+---
+
+<section class="w-full bg-(--color-counter-background)">
+  <div
+    id="countdown"
+    class="flex flex-col items-center md:gap-10 gap-8 px-4 md:px-8 py-12 md:py-16 container-max mx-auto"
+    x-data="{
+      raceDate: new Date('2026-02-23T07:00:00').getTime(),
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      updateCountdown() {
+        const now = new Date().getTime();
+        const diff = this.raceDate - now;
+        
+        if (diff > 0) {
+          this.days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          this.hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          this.minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          this.seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        } else {
+          this.days = 0;
+          this.hours = 0;
+          this.minutes = 0;
+          this.seconds = 0;
+        }
+      }
+    }"
+    x-init="
+      updateCountdown();
+      setInterval(() => updateCountdown(), 1000);
+    "
+  >
+    <h2 class="body-18-semibold text-(--color-text-inverse)">
+      {site.counter.heading.toUpperCase()}
+    </h2>
+    <div class="flex gap-6 items-center">
+      <CountdownItem dynamicValue="days" label={site.counter.days} />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem dynamicValue="hours" label={site.counter.hours} />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem dynamicValue="minutes" label={site.counter.minutes} />
+      <div class="w-px h-20 bg-(--color-text-inverse)"></div>
+      <CountdownItem dynamicValue="seconds" label={site.counter.seconds} />
+    </div>
+  </div>
+</section>

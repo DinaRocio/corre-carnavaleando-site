@@ -1,0 +1,52 @@
+---
+import Link from "../atoms/Link.astro";
+import site from "../../content/site.json";
+import MenuButton from "../molecules/MenuButton.astro";
+---
+
+<header
+  id="header"
+  class="relative group w-full z-60 px-6 md:px-6 lg:px-8 bg-(--color-header-background)"
+>
+  <div class="w-full flex items-center justify-between z-50">
+    <!-- Mobile Menu hidden on desktop -->
+    <MenuButton />
+    <!-- Mobile Menu hidden on desktop -->
+    <div class="hidden md:flex gap-6">
+      {
+        site.header.items_left.map((item) => (
+          <Link
+            variant="emphasis"
+            textTone="inverse"
+            href={item.href}
+            style="bg-(--color-menu-item-background) px-4 py-2 text-(--color-text-inverse)  hover:scale-110 transition-all duration-150"
+          >
+            {item.label.toUpperCase()}
+          </Link>
+        ))
+      }
+    </div>
+
+    <a href="/" class="hidden md:block relative md:w-20 md:h-20">
+      <img
+        src="/images/logo-corre-carnavaleando.png"
+        alt="corre carnavaleando logo"
+        class="absolute inset-0 z-20 w-full h-full transition-opacity duration-150 object-contain"
+      />
+    </a>
+    <div class="hidden md:flex gap-6">
+      {
+        site.header.items_right.map((item) => (
+          <Link
+            variant="emphasis"
+            textTone="inverse"
+            href={item.href}
+            style="bg-(--color-menu-item-background) px-4 py-2 text-(--color-text-inverse) hover:scale-110 transition-all duration-150"
+          >
+            {item.label.toUpperCase()}
+          </Link>
+        ))
+      }
+    </div>
+  </div>
+</header>

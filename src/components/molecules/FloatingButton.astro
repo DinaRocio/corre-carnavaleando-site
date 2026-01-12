@@ -1,0 +1,23 @@
+---
+import Button from "../atoms/Button.astro";
+import { doorDashButton } from "../../content/site.json";
+
+interface Props {}
+---
+
+<div class="fixed md:bottom-4 md:right-4 bottom-4 right-2 z-50">
+  <Button
+    variant="ghost"
+    radius="full"
+    size="md"
+    target="_blank"
+    href={doorDashButton.href}
+    className=" hover:scale-120 transition-transform duration-200"
+  >
+    <img
+      src="/images/whatsapp.png"
+      alt="WhatsApp Contact"
+      class="w-20 h-20 md:w-30 md:h-30"
+    />
+  </Button>
+</div>

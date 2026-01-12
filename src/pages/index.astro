@@ -1,11 +1,66 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import CateringSection from "../components/molecules/CateringSection.astro";
+import DoordashButton from "../components/molecules/DoordashButton.astro";
+import GallerySection from "../components/organisms/GallerySection.astro";
+import Marquee from "../components/molecules/Marquee.astro";
+import PromoBar from "../components/molecules/PromoBar.astro";
+import QuoteBanner from "../components/molecules/QuoteBanner.astro";
+import About from "../components/organisms/About.astro";
+import Countdown from "../components/organisms/Countdown.astro";
+import Footer from "../components/organisms/Footer.astro";
+import Header from "../components/organisms/Header.astro";
+import HeroSection from "../components/organisms/HeroSection.astro";
+import RaceDetails from "../components/organisms/RaceDetails.astro";
+import Layout from "../layouts/Layout.astro";
+import Sponsors from "../components/organisms/Sponsors.astro";
+import FloatingButton from "../components/molecules/FloatingButton.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <div class="fixed z-20 top-0 left-0 right-0">
+    <PromoBar />
+    <Header />
+  </div>
+
+  <main class="flex flex-col">
+    <!-- Hero -->
+    <section class="w-full">
+      <HeroSection />
+    </section>
+
+    <!-- Marquee divider -->
+    <section class="w-full">
+      <Marquee />
+    </section>
+
+    <!-- Race Details -->
+    <section class="w-full">
+      <RaceDetails />
+    </section>
+
+    <!-- Lifestyle / Catering Promo -->
+    <section class="w-full">
+      <Countdown />
+    </section>
+
+    <!-- Gallery (croissants etc.) -->
+    <section class="w-full">
+      <About />
+    </section>
+    <!-- Gallery -->
+    <section class="w-full">
+      <GallerySection />
+    </section>
+    <!-- Sponsors divider -->
+    <section class="w-full">
+      <Sponsors />
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <section>
+    <Footer />
+  </section>
+
+  <FloatingButton />
 </Layout>

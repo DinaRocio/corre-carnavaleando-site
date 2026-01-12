@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("/fonts/FoundersGrotesk-Semibold.woff2") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* =========================
+     Primitives (Balanced)
+     ========================= */
+
+  /* Brand palette (yours) */
+  --primitive-pink: #f2055c;
+  --primitive-pink-soft: #ef72b7;
+  --primitive-magenta: #f20587;
+  --primitive-magenta-soft: #f20587;
+  --primitive-blue: #0460d9;
+  --primitive-blue-soft: #6dacff;
+  --primitive-yellow: #fcb900;
+  --primitive-yellow-soft: #ffe292;
+  --primitive-orange: #ff9e37;
+
+  /* Neutrals (UX essentials) */
+  --primitive-white: #ffffff;
+  --primitive-black: #000000;
+  --primitive-offwhite: #ffffff; /* reemplaza tu beige (más usable) */
+
+  /* Greys (necesarios para UI real) */
+  --primitive-gray-50: #fafafa;
+  --primitive-gray-100: #f4f4f5;
+  --primitive-gray-200: #e4e4e7;
+  --primitive-gray-300: #d4d4d8;
+  --primitive-gray-400: #a1a1aa;
+  --primitive-gray-500: #71717a;
+  --primitive-gray-700: #3f3f46;
+
+  --primitive-transparent: rgba(0, 0, 0, 0);
+
+  /* =========================
+     Semantic Colors
+     ========================= */
+
+  /* Brand */
+  --color-primary: var(--primitive-pink); /* CTA / Highlights */
+  --color-secondary: var(--primitive-blue); /* Links / Secondary actions */
+  --color-accent: var(--primitive-yellow); /* Badges / Emphasis */
+  --color-brand-alt: var(--primitive-magenta); /* Special highlight */
+  --color-brand-tertiary: var(--primitive-orange); /* Special highlight */
+
+  /* Gradiente Brand */
+  --color-gradient-primary: var(--primitive-pink-soft);
+  --color-gradient-secondary: var(--primitive-blue-soft);
+  --color-gradient-accent: var(--primitive-yellow-soft);
+  --color-gradient-brand-alt: var(--primitive-magenta-soft);
+
+  /* Backgrounds */
+  --color-background: var(--primitive-offwhite);
+  --color-header-background: var(--primitive-transparent);
+  --color-promo-background: var(--primitive-blue);
+  --color-marquee-background: var(--primitive-pink);
+  --color-menu-background: var(--primitive-pink);
+  --color-menu-item-background: var(--primitive-pink);
+  --color-counter-background: var(--primitive-pink);
+  --color-about-background: var(--primitive-pink);
+  --color-footer-background: var(--primitive-blue);
+  --color-sponsors-background: var(--primitive-offwhite);
+  --color-gallery-background: var(--primitive-orange);
+  --color-race-details-background:  var(--primitive-orange);
+
+  /* Surfaces */
+  --color-surface: var(--primitive-white);
+  --color-surface-alt: var(--primitive-gray-50);
+  --color-surface-inverse: var(--primitive-black);
+
+  /* Text */
+  --color-text-primary: var(--primitive-black);
+  --color-text-secondary: var(--primitive-gray-500);
+  --color-text-inverse: var(--primitive-white);
+  --color-text-accent: var(--primitive-yellow);
+
+  /* Buttons */
+  --color-button-primary: var(--primitive-white); /* texto en fondo primary */
+  --color-button-secondary: var(--primitive-pink); /* fondo CTA */
+  --color-button-accent: var(--primitive-yellow); /* CTA alterno */
+  --color-button-outlined: var(--primitive-transparent);
+
+  --color-button-primary-hover: var(--primitive-magenta);
+
+  /* Borders / Divider */
+  --color-border: var(--primitive-gray-300);
+  --color-border-light: var(--primitive-gray-100);
+  --color-divider: var(--primitive-gray-200);
+
+  /* =========================
+     Font Family Tokens
+     ========================= */
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Founders Grotesk", sans-serif;
+
+  /* =========================
+     Spacing Tokens
+     ========================= */
+  --space-xs: 0.25rem; /* 4px */
+  --space-sm: 0.5rem; /* 8px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2rem; /* 32px */
+  --space-2xl: 3rem; /* 48px */
+  --space-3xl: 4rem; /* 64px */
+  --space-4xl: 6rem; /* 96px */
+
+  /* =========================
+     Radii Tokens
+     ========================= */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* =========================
+     Shadow Tokens
+     ========================= */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 10px 20px rgba(0, 0, 0, 0.18);
+
+  /* =========================
+     Motion Tokens
+     ========================= */
+  --motion-fast: 150ms;
+  --motion-base: 250ms;
+  --motion-slow: 400ms;
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+
+  /* =========================
+     Layout Tokens
+     ========================= */
+  --max-width-container: 1600px;
+}

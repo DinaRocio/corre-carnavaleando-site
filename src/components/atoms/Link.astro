@@ -1,0 +1,47 @@
+---
+type LinkVariant = "default" | "emphasis";
+type LinkTextTone = "default" | "inverse";
+
+interface Props {
+  href: string;
+  variant?: LinkVariant;
+  textTone?: LinkTextTone;
+  size?: "sm" | "md";
+  icon?: string;
+  hoverIcon?: string;
+  underline?: boolean;
+  style?: string;
+}
+
+const sizeMap: Record<"sm" | "md", string> = {
+  sm: "14",
+  md: "16",
+};
+
+const {
+  href,
+  variant = "default",
+  textTone = "default",
+  underline = false,
+  size = "md",
+  icon,
+  style,
+  hoverIcon,
+}: Props = Astro.props;
+
+const variants: Record<LinkVariant, string> = {
+  default: `body-${sizeMap[size]} ${underline ? "hover:underline" : ""} `,
+  emphasis: `body-${sizeMap[size]}-semibold ${underline ? "hover:underline" : ""}`,
+};
+---
+
+<a
+  href={href}
+  target="_blank"
+  class={" " +
+    variants[variant] +
+    (underline ? " underline" : "") +
+    (style ? " " + style : "")}
+>
+  <slot />
+</a>

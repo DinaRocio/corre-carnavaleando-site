@@ -1,0 +1,25 @@
+---
+interface Props {
+  value?: number;
+  label: string;
+  dynamicValue?: string;
+}
+
+const { value, label, dynamicValue } = Astro.props;
+---
+
+<div
+  id="countdown-item"
+  class="flex flex-col items-center justify-center gap-2"
+>
+  {
+    dynamicValue ? (
+      <p class="heading-3 text-(--color-text-inverse)" x-text={dynamicValue} />
+    ) : (
+      <p class="heading-3 text-(--color-text-inverse)">{value}</p>
+    )
+  }
+  <p class="body-16 text-(--color-text-inverse)">
+    {label.toUpperCase()}
+  </p>
+</div>
