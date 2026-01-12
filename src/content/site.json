@@ -129,7 +129,7 @@
       {
         "icon": "calendar",
         "title": "Fecha/Hora",
-        "body": "Febrero 23, 2026 - 5:30am"
+        "body": "Febrero 23, 2026 - 7:00am"
       },
       {
         "icon": "10k",
@@ -144,7 +144,7 @@
       {
         "icon": "medal",
         "title": "Incluye",
-        "body": "Chip de cronometraje • Medalla finisher • Hidratación"
+        "body": "Chip de cronometraje • Medalla finisher • Hidratación por S/50"
       }
     ]
   },
@@ -190,14 +190,15 @@
       "locations": [
         {
           "name": "Punto de partida y meta",
-          "address": ["Plaza Principal • Zona de salida", "Ciudad • País"],
-          "phone": "(+51) 999 999 999",
+          "address": ["Plaza de Armas de Baños del Inca • Cajamarca • Perú"],
+          "phone": "(+51) 929 011 992",
+          "email": "correcarnavaleando2026@gmail.com",
           "openingDays": "Evento único (Edición 2026)",
-          "openingHours": "Concentración 5:30am • Partida 7:00am"
+          "openingHours": "Concentración 6:30am • Partida 7:00am"
         },
         {
           "name": "Entrega de kits",
-          "address": ["Centro de Convenciones", "Dirección por confirmar"],
+          "address": ["Centro de Convenciones • Cajamarca • Perú"],
           "availability": "Días previos al evento",
           "openingDays": "Viernes y Sábado",
           "openingHours": "10am - 7pm"
