@@ -13,6 +13,11 @@
     "linkLabel": "Inscríbete ahora",
     "linkHref": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
   },
+  "floatingButton": {
+    "enabled": true,
+    "linkLabel": "Inscríbete ahora",
+    "linkHref": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+  },
   "site": {
     "name": "Corre Carnavaleando 10K",
     "tagline": "La carrera que se vive como fiesta",
@@ -164,7 +169,7 @@
   },
   "doorDashButton": {
     "label": "Ver Inscripción y Kits",
-    "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQdD4hf0iCJaF5Ngs10BXjTMB9cWHiHkJ5Hvj9dZJlYJOvcw/viewform"
+    "href": "https://api.whatsapp.com/send?phone=51929011992&text=Hola!%20%F0%9F%91%8B%20Me%20interesa%20la%20carrera.%0A%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%2C%20precio%20y%20horarios%3F%20Gracias."
   },
   "hero": {
     "eyebrow": "Edición 2026",
@@ -242,7 +247,7 @@
           },
           {
             "label": "Llámanos",
-            "href": "tel:(410)515-2060"
+            "href": "tel:51929011992"
           }
         ]
       },
@@ -276,11 +281,11 @@
           },
           {
             "label": "Facebook",
-            "href": "https://www.instagram.com/correcarnavaleando2026/"
+            "href": "https://www.facebook.com/MARATONISTAaLAVISTA/photos/inician-inscripciones-para-corre-carnavaleando-cajamarca-1ok/1279316640908221/"
           },
           {
             "label": "Playlist para entrenar",
-            "href": "#"
+            "href": "https://open.spotify.com/playlist/7ClQ07nJipY2x4WuUstlo5?si=81cf184355cb4996"
           }
         ]
       }
