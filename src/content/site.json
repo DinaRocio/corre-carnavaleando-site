@@ -129,7 +129,7 @@
       {
         "icon": "calendar",
         "title": "Fecha/Hora",
-        "body": "Febrero 23, 2026 - 7:00am"
+        "body": "Febrero 13, 2026 - 7:00am"
       },
       {
         "icon": "10k",
@@ -161,9 +161,9 @@
     "heading": "Conócenos",
     "eyebrow": "Corre Carnavaleando",
     "paragraphs": [
-      "Bienvenidos a Corre Carnavaleando 2026, cada año, más de 1,200 corredores se dan cita para vivir una experiencia que va más allá del deporte. Esta carrera incluye tres distancias: 5K, 10K y el desafiante Medio Maratón de 21K.",
-      "Correr Corre Carnavaleando no es solo completar kilómetros; es romper límites, conquistar metas y sentir la libertad en cada paso. El evento se llevará a cabo el día del carnaval.",
-      "El evento destaca por su ruta variada, que incluye asfalto, dunas, senderos de tierra y arena. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes."
+      "Bienvenidos a Corre Carnavaleando 2026, cada año, más de 200 corredores se dan cita para vivir una experiencia que va más allá del deporte. Esta carrera de 10KM es una oportunidad para los amantes de la actividad física y la aventura.",
+      "Correr Corre Carnavaleando no es solo completar kilómetros; es romper límites, conquistar metas y sentir la libertad en cada paso. El evento se llevará a cabo el día previo a la entrada del carnaval.",
+      "El evento destaca por su ruta variada, que incluye asfalto y senderos de tierra. Esta ruta única ofrece a los corredores un ambiente y vistas poco comunes, rompiendo con la tradición de correr solo en asfalto urbano. La organización ha seleccionado cuidadosamente diferentes terrenos y paisajes para ofrecer una experiencia única a los participantes."
     ],
     "meta": "Evento anual • +1,200 runners en ediciones previas"
   },
@@ -172,7 +172,7 @@
     "href": "https://api.whatsapp.com/send?phone=51929011992&text=Hola!%20%F0%9F%91%8B%20Me%20interesa%20la%20carrera.%0A%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%2C%20precio%20y%20horarios%3F%20Gracias."
   },
   "hero": {
-    "eyebrow": "Edición 2026",
+    "eyebrow": "Segunda Edición",
     "title": "Vive la experiencia Corre Carnavaleando 10K",
     "body": "Próxima edición: 13 de Febrero 2026 • Ruta certificada • Medalla finisher • Fruta",
     "primaryCta": {
