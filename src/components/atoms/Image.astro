@@ -1,0 +1,45 @@
+---
+// Props
+interface Props {
+  src: string;
+  alt: string;
+  stickerName?: "with-love" | "good-coffee" | "roasted-ready";
+  stickerPosition?: "top" | "bottom" | "center";
+}
+
+const { src, alt, stickerName, stickerPosition = "top" } = Astro.props;
+
+const stickers = {
+  "with-love": import("../../../public/stickers/with-love.svg"),
+  "good-coffee": import("../../../public/stickers/good-coffee.webp"),
+  "roasted-ready": import("../../../public/stickers/roasted-ready.webp"),
+};
+
+let sticker = null;
+if (stickerName && stickerName in stickers) {
+  sticker = await stickers[stickerName as keyof typeof stickers];
+}
+
+const stickerPositionClasses = {
+  top: "-top-10 -right-10 w-30 h-30",
+  bottom:
+    "-top-5 -right-4 bottom-auto left-auto h-14 md:top-auto md:right-auto md:-bottom-10 md:-left-10 md:h-18",
+  center:
+    "bottom-1/4 left-[70%] -translate-x-1/2 -translate-y-1/2 w-15 h-15 md:w-30 md:h-30",
+};
+
+const rotateClasses = {
+  top: "rotate-[0deg]",
+  bottom: "rotate-[25deg]",
+  center: "rotate-[0deg]",
+};
+
+const stickerPositionClass = stickerPositionClasses[stickerPosition];
+---
+
+<div class="relative w-full h-full">
+  <!-- Imagen optimizada -->
+  <img src={src} alt={alt} class="w-full h-full object-cover" />
+
+  <!-- Sticker -->
+</div>
